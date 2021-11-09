@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>This is Form Tutorial</h2>
+    <h4>VKD pvt.Ltd.</h4>
+    <form action="backend.php">
+        
+        <div>
+            <label for="name"> Name :  </label>
+            <br><input type="text" name="myName"  id = "name"> 
+    </div>
+ 
+      <div>
+        <br><label for="role">Role : </label>
+        <br><input type="text" name="myRole" id="role" >
+       
+    </div>
+    <br><label for="email"> E mail :</label>
+    <br><input type="email" name="myEmail" id="email" >
+     </div>
+     <div>
+        <br><label for="date">Date :</label>
+        <br><input type="date" name="myDate" id="date">
+        </div>
+        <div>
+            <br><label for="bonus">Bonus : </label>
+            <br><input type="number" name="myBonus" id="bonus">
+        </div>
+        <div>
+            <br> Are you eligible ? :    <input type="checkbox" name="myEgligibility">
+        </div>
+        <div>
+            <br>Gender : Male <input type="radio" name="myGender"> Female <input type="radio" name="myGender"> Other <input type="radio" name="myGender">
+        </div>
+        <br>
+        <div>
+           Write about yourself : <br> <textarea name="myText" id="" cols="50" rows="10"></textarea>
+        </div>
+
+        <div>
+            <br><label for="car">Car : </label>
+            <select name="myCar" id="car">
+                <option value="BMW">BMW</option>
+                <option value="Merc">Mercedes</option>
+                <option value="swift">Swift</option>
+            </select>
+        </div>
+        <div>
+            <br><input type="submit" value="Submit Now">
+            <input type="reset" value="Reset Now">
+        </div>
+    </form>
+</body>
+</html>
